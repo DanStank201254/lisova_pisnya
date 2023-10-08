@@ -1,0 +1,72 @@
+
+h1,h2 {
+    color: red;
+    margin-bottom: 20px;
+}
+
+
+
+img{
+    height: 600px;
+    width: 400px;
+}
+
+blockquote{
+    border: 1px solid black;
+}
+
+#container{
+    display: flex;
+    justify-content: left; /*розміщення елементів по горизонталі*/
+    align-items: center; /*розміщення елементів по вертикалі*/
+    width: 800px;
+    height: 800px;
+    background-color: grey;
+    flex-direction: row; /*розміщення елементів в колонку/в рядок*/
+
+}
+
+div{
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+#container img{
+    width: 100px;
+    height: 100px;
+}
+
+#three{
+    color: red;
+}
+
+#three ul{
+    list-style-type: none;
+}
+
+#bet{
+    color: black;
+}
+
+.herous{
+    color: yellow;
+}
+
+#name{
+    display: flex;
+}
+
+#danya{
+    height: 150px;
+    width: 200px;
+}
+
+#right{
+    padding: 10px;
+}
+
+p::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+} 

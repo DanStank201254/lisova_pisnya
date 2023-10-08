@@ -1,0 +1,2 @@
+tr:nth-child(even) {background: rgb(241, 91, 91)} /*парний*/
+tr:nth-child(odd) {background: rgb(51, 160, 233)}  /*непарний*/
