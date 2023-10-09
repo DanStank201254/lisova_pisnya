@@ -1,0 +1,5 @@
+git init - додати проект в git
+git status - статус файлів
+git add . - додати всі файли для відслідковування
+git commit -m "title has been changed" - закоммітити всі зміни
+git push - запушити зміни на gitHub
